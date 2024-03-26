@@ -1,0 +1,12 @@
+apiVersion: es.yasyx.cn/v1
+kind: EsCluster
+metadata:
+  labels:
+    app.kubernetes.io/name: escluster
+    app.kubernetes.io/instance: escluster-sample
+    app.kubernetes.io/part-of: elasticsearch-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: elasticsearch-operator
+  name: escluster-sample
+spec:
+  # TODO(user): Add fields here

@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- es_v1_escluster.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples
